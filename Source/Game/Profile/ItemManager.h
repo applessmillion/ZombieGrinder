@@ -33,7 +33,8 @@ struct ItemArchetype;
 #define INVENTORY_ITEM_PAINTS_PROBABILITY		20
 #define INVENTORY_ITEM_WEAPONS_PROBABILITY		30
 
-#define INVENTORY_ITEM_SELL_PRICE_MULTIPLIER	3.0
+// I want people to sell their horde of stuff for awhile...
+#define INVENTORY_ITEM_SELL_PRICE_MULTIPLIER	10.0
 
 struct ItemCombineMethod
 {
@@ -46,14 +47,16 @@ struct ItemCombineMethod
 	};
 };
 
+// I see you...
 struct ItemSlot
 {
 	enum Type
 	{
 		Head		= 0,
-		Accessory	= 1,
-		Weapon		= 2,
-		All			= 3,
+		Headgear	= 1,
+		Accessory	= 2,
+		Weapon		= 3,
+		All			= 4,
 
 		COUNT		
 	};
@@ -78,7 +81,8 @@ struct ItemUnlockCriteria
 		Required_Rank				= 0,
 		Kills_With_Weapon			= 1,
 		Damage_With_Weapon			= 2,
-		Ailments_From_Weapon		= 3
+		Ailments_From_Weapon		= 3,
+		Profile_Play_Time			= 4	//todo
 	};
 };
 
@@ -333,6 +337,7 @@ public:
 	std::string		inventory_original_drop_id;
 	std::string		inventory_drop_id;
 	int				equip_slot;
+	bool			overrides_headgear; //todo. Is our Head item incompatible with headgear?
 	int				equip_time;
 	int				attached_to_id;
 	CVMGCRoot		script_object;
@@ -394,6 +399,7 @@ public:
 	bool							is_inventory_droppable;
 	bool							is_premium_only;
 	std::string						premium_price;
+	bool							overrides_headgear; //todo. Is our Head item incompatible with headgear?
 
 	ItemUnlockCriteria::Type		unlock_critera;
 	CVMLinkedSymbol*				unlock_critera_item;
@@ -441,7 +447,7 @@ public:
 	int								tmp_unlocked;
 
 	ItemArchetype()
-		: max_durability(2 * 60 * 60.0f) // 2 hours of activly playing. 
+		: max_durability(4 * 60 * 60.0f) // Lets bump it up. 4 hours of activly playing. 
 		, is_premium_only(false)
 		, premium_price("")
 		, use_custom_color(false)
@@ -452,6 +458,7 @@ public:
 		, upgrade_tree(NULL)
 		, varient_prefix("")
 		, override_inventory_id_name("")
+		, overrides_headgear(false)
 	{
 	}
 
