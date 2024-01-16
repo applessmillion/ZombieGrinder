@@ -30,5 +30,6 @@
 	<maps>
 		<map file="Data/Maps/example_game_mode_map.zgmap" priority="last" />
 	</maps>
+	<animations/>
 </xml>
 

@@ -28,5 +28,6 @@
 		<layout file="Data/Layouts/MainMenuPremium.xml"/>
 	</layouts>
 	<maps/>
+	<animations/>
 </xml>
 
