@@ -1,0 +1,33 @@
+<xml>
+	<package>
+		<name>LayoutSkinExample</name>
+		<root>Data/</root>
+		<compile_directory>../../Output/Data/LayoutSkinExample/.compiled/</compile_directory>
+		<script_directory>../../Data/LayoutSkinExample/Scripts/</script_directory>
+		<pak_file>../../Data/LayoutSkinExample/LayoutSkinExample.dat</pak_file>
+		<private_key/>
+		<pak_keep_source>True</pak_keep_source>
+		<pak_use_compression>True</pak_use_compression>
+		<workshop>
+			<id>500334111</id>
+			<title>Example Layout Skin</title>
+			<preview_file>LayoutSkinExample.png</preview_file>
+			<description>Example of creating a mod package that modifies the layout of game screens!</description>
+			<tags>Example Layout Skin Official</tags>
+		</workshop>
+	</package>
+	<languages/>
+	<atlases>
+		<atlas file="Data/Atlases/LayoutSkinExampleAtlas.xml" priority="initial"/>
+	</atlases>
+	<audio_banks/>
+	<fonts/>
+	<particlefx/>
+	<scripts/>
+	<shaders/>
+	<raw/>
+	<layouts/>
+	<maps/>
+	<animations/>
+</xml>
+
