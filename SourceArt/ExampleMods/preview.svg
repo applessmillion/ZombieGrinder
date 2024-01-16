@@ -28,8 +28,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1.1015398"
-     inkscape:cx="801.11501"
-     inkscape:cy="284.88627"
+     inkscape:cx="787.94382"
+     inkscape:cy="314.79848"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      inkscape:document-rotation="0"
@@ -88,16 +88,16 @@
        transform="rotate(-13.387608)" />
     <text
        xml:space="preserve"
-       style="font-weight:bold;font-size:25.4px;line-height:1.25;font-family:'Roboto Condensed';-inkscape-font-specification:'Roboto Condensed, Bold';text-align:center;word-spacing:0px;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.8;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       x="181.11862"
-       y="79.099045"
+       style="font-weight:bold;font-size:25.4px;line-height:1.25;font-family:'Roboto Condensed';-inkscape-font-specification:'Roboto Condensed, Bold';text-align:end;word-spacing:0px;text-anchor:end;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.8;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       x="292.83926"
+       y="78.755798"
        id="text902"
        transform="rotate(7.453766)"><tspan
          sodipodi:role="line"
          id="tspan900"
-         x="181.11862"
-         y="79.099045"
-         style="font-size:25.4px;text-align:center;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.8;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1">EXAMPLE HEADGEAR</tspan></text>
+         x="292.83926"
+         y="78.755798"
+         style="font-size:25.4px;text-align:end;text-anchor:end;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.8;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1">EXAMPLE HEAD</tspan></text>
     <text
        xml:space="preserve"
        style="font-weight:bold;font-size:14.8167px;line-height:1.25;font-family:'Roboto Condensed';-inkscape-font-specification:'Roboto Condensed, Bold';word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.5;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
@@ -111,56 +111,37 @@
          y="229.10939"
          style="font-size:14.8167px;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.5;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1">A 'LEARN HOW TO DIY' EXAMPLE MOD!</tspan></text>
     <image
-       width="146.05"
-       height="95.779167"
+       width="119.00702"
+       height="119.00702"
        preserveAspectRatio="none"
-       xlink:href="data:image/png;base64,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
-AAAAAACAv/NvkO8IWZdKYxMAAAAASUVORK5CYII=
+       xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASwAAAEsCAYAAAB5fY51AAAABHNCSVQICAgIfAhkiAAABTFJREFU
+eJzt3bGKXUUAgOGzSXyEhaTTcg0qpFYIYbESUtmJjY2NhQYrwUKwUWOQNDY24gtcsBIJgmIZ2ATd
+MnYR9hE0WQsl6eSO2eM5/+b76rnDFGd+prjDTBMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADAeuwsvYD/
+wfHSC4An8DTs0a2dWXoBANsSLCBDsIAMwQIyBAvIECwgQ7CADMECMgQLyBAsIKP6t/+tr9vc/+Dt
+OdcBs7rw8ZejP6nu6a04YQEZggVkCBaQIVhAhmABGYIFZAgWkCFYQIZgARmCBWQIFpBxbukFrM3u
+3t7SS+CUOzo8XHoJWU5YQIZgARmCBWQIFpAhWECGYAEZggVkCBaQIVhAhmABGYIFZJz6u4SjdwPP
+XnKXkHntLr2AMCcsIEOwgAzBAjIEC8gQLCBDsIAMwQIyBAvIECwgQ7CADMECMgQLyBAsIEOwgAzB
+AjIEC8gQLCBDsIAMwQIyBAvIECwgQ7CADMECMgQLyBAsIEOwgAzBAjIEC8gQLCBDsIAMwQIyBAvI
+ECwgQ7CADMECMgQLyBAsIEOwgAzBAjIEC8gQLCBDsIAMwQIyBAvIECwgQ7CAjHMzzXs807zDjg4P
+h8afv7Q300rgb6Pf5KC5997OzPP/KycsIEOwgAzBAjIEC8gQLCBDsIAMwQIyBAvIECwgQ7CADMEC
+Mra9Szh0P+n7l64OLeLy+1eGxv/w6a2tx+7uuRvIuox8k2vaS9M0TfsHm5EWnPi9QycsIEOwgAzB
+AjIEC8gQLCBDsIAMwQIyBAvIECwgQ7CAjFme+Rq9HvDum1/NsYxpmqbpome+WJmRZ742d+8Nzb0Z
+3Es3vn5raPz0xmZs/AlzwgIyBAvIECwgQ7CADMECMgQLyBAsIEOwgAzBAjIEC8gQLCBjlruEo66+
+8NzQ+JH7VaPPfO08/+rQ+ONfvxsaz+kz+s38+c0XA6N/Hpp7dC/VOGEBGYIFZAgWkCFYQIZgARmC
+BWQIFpAhWECGYAEZggVkCBaQMctdwpF319bG3UBGjX4zD26vZ3/U9qoTFpAhWECGYAEZggVkCBaQ
+IVhAhmABGYIFZAgWkCFYQMYsV3N++fb+0PiLr12YYxn/zbN/zDv/b8/MO/+Aa1c+WnoJj1y/9eHS
+S3hs7m/g9vZDR5/tGt1Lo3t1aU5YQIZgARmCBWQIFpAhWECGYAEZggVkCBaQIVhAhmABGYIFZGx7
+l3BnZNL9g83x0CoOhkZP75x5ceuxl8emThu9G3j9/o8zrWTctQuvDI1f1d3DGW3u3hsav3+wmWkl
+jwy14KQ5YQEZggVkCBaQIVhAhmABGYIFZAgWkCFYQIZgARmCBWQIFpAxy7uE08z3jW4+vLP1XcUb
+o5Ov6N1AFrKib+DmwzujP1n0rt/cnLCADMECMgQLyBAsIEOwgAzBAjIEC8gQLCBDsIAMwQIyBAvI
+mOsu4WocHR4Ojd8dnP/spb3BX8znk89eHxo/+hbgnEbXviYPbo99Y6PfJI85YQEZggVkCBaQIVhA
+hmABGYIFZAgWkCFYQIZgARmCBWSc6ieB/rH1k2Br8975l5dewqnw+e8/Lb2EJ/E07NGtOWEBGYIF
+ZAgWkCFYQIZgARmCBWQIFpAhWECGYAEZggVkCBYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAn4y+qN3inV95crQAAAABJRU5ErkJggg==
 "
        id="image848"
-       x="128.01051"
-       y="126.63787" />
+       x="144.67223"
+       y="110.14828" />
   </g>
 </svg>
