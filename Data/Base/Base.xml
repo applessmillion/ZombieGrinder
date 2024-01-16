@@ -20,12 +20,11 @@
 		<language file="Data/Languages/es-es.xml" priority="initial" />
 		<language file="Data/Languages/fr-fr.xml" priority="initial" />
 		<language file="Data/Languages/it-it.xml" priority="initial" />
-    <language file="Data/Languages/ja-ja.xml" priority="initial" />
-    <language file="Data/Languages/nl-nl.xml" priority="initial" />
-    <language file="Data/Languages/pt-br.xml" priority="initial" />
-    <language file="Data/Languages/ru-ru.xml" priority="initial" />
-    <language file="Data/Languages/zh-cn.xml" priority="initial" />
-	
+		<language file="Data/Languages/ja-ja.xml" priority="initial" />
+		<language file="Data/Languages/nl-nl.xml" priority="initial" />
+		<language file="Data/Languages/pt-br.xml" priority="initial" />
+		<language file="Data/Languages/ru-ru.xml" priority="initial" />
+		<language file="Data/Languages/zh-cn.xml" priority="initial" />
 	</languages>
 	<atlases>
  
@@ -94,7 +93,6 @@
     <fx file="Data/Effects/weapons/rocket_launcher_3/rocket_launcher_3_fire.xml"  priority="last" />
     <fx file="Data/Effects/weapons/rocket_launcher_3/rocket_launcher_3_explode.xml"  priority="last" />
     <fx file="Data/Effects/weapons/rocket_launcher_3/rocket_launcher_3_trail.xml"  priority="last" />
-
 
     <fx file="Data/Effects/weapons/developer_pistol/developer_pistol_fire.xml"  priority="last" />
     <fx file="Data/Effects/weapons/pistol/pistol_fire.xml"  priority="last" />
@@ -342,18 +340,18 @@
   </scripts>
 	<shaders>
 	
-		<shader file="Data/Shaders/Pipeline/combine.xml" 						       priority="gfx_initial" />
-		<shader file="Data/Shaders/Pipeline/diffuse.xml" 						       priority="gfx_initial" />
-		<shader file="Data/Shaders/Pipeline/copy.xml" 							       priority="gfx_initial" />
-		<shader file="Data/Shaders/Pipeline/distortion.xml" 					     priority="gfx_initial" />
-		<shader file="Data/Shaders/Pipeline/gbuffer_clear.xml" 					    priority="gfx_initial" />
-		<shader file="Data/Shaders/Pipeline/distance_field_font.xml" 			  priority="gfx_initial" />
-		<shader file="Data/Shaders/PostProcess/health_warning.xml" 				  priority="gfx_initial" />
-		<shader file="Data/Shaders/PostProcess/chromatic_arboration.xml" 				  priority="gfx_initial" />
-    <shader file="Data/Shaders/PostProcess/gameboy.xml" 				  priority="gfx_initial" />
-    <shader file="Data/Shaders/PostProcess/deus_ex.xml" 				  priority="gfx_initial" />
-		<shader file="Data/Shaders/PostProcess/enter_the_light.xml" 				priority="gfx_initial" />
-		<shader file="Data/Shaders/PostProcess/hq2x.xml" 		          		  priority="gfx_initial" />
+		<shader file="Data/Shaders/Pipeline/combine.xml" priority="gfx_initial" />
+		<shader file="Data/Shaders/Pipeline/diffuse.xml" priority="gfx_initial" />
+		<shader file="Data/Shaders/Pipeline/copy.xml" priority="gfx_initial" />
+		<shader file="Data/Shaders/Pipeline/distortion.xml" priority="gfx_initial" />
+		<shader file="Data/Shaders/Pipeline/gbuffer_clear.xml" priority="gfx_initial" />
+		<shader file="Data/Shaders/Pipeline/distance_field_font.xml" priority="gfx_initial" />
+		<shader file="Data/Shaders/PostProcess/health_warning.xml" priority="gfx_initial" />
+		<shader file="Data/Shaders/PostProcess/chromatic_arboration.xml" priority="gfx_initial" />
+    <shader file="Data/Shaders/PostProcess/gameboy.xml"  priority="gfx_initial" />
+    <shader file="Data/Shaders/PostProcess/deus_ex.xml" priority="gfx_initial" />
+		<shader file="Data/Shaders/PostProcess/enter_the_light.xml" priority="gfx_initial" />
+		<shader file="Data/Shaders/PostProcess/hq2x.xml" priority="gfx_initial" />
 		<!--  <shader file="Data/Shaders/PostProcess/hq2x_resize.xml" 		        priority="gfx_initial" /> -->
     
   </shaders>
@@ -363,7 +361,7 @@
 		<raw file="Data/Config/Collision_Types.xml" priority="initial" />
 		<raw file="Data/Config/Render_Pipeline.xml" priority="initial" />
 		<raw file="Data/Config/Mod_Whitelist.xml" priority="initial" />
-    <raw file="Data/Config/Controller_Bindings.xml" priority="initial" />
+		<raw file="Data/Config/Controller_Bindings.xml" priority="initial" />
 	
 		<!-- Shader Resources -->
 		<raw file="Data/Shaders/Resources/hq2x_lut.png" priority="initial" />
@@ -479,10 +477,10 @@
     <map file="Data/Maps/campaign/s3e4.zgmap" 					priority="last" />
 		-->
 
-    <map file="Data/Maps/c1_s1/c1_s1.zgmap" 					          priority="last" />
+		<map file="Data/Maps/c1_s1/c1_s1.zgmap" 					          priority="last" />
 		<map file="Data/Maps/c1_s2/c1_s2.zgmap" 					          priority="last" />
 		<map file="Data/Maps/c1_s3/c1_s3.zgmap" 					          priority="last" />
-    <map file="Data/Maps/c2_s1/c2_s1.zgmap" 					          priority="last" />
+		<map file="Data/Maps/c2_s1/c2_s1.zgmap" 					          priority="last" />
 		<map file="Data/Maps/c2_s2/c2_s2.zgmap" 					          priority="last" />
 		<map file="Data/Maps/c2_s3/c2_s3.zgmap" 					          priority="last" />		
 		<map file="Data/Maps/c3_s1/c3_s1.zgmap" 					          priority="last" />
@@ -539,8 +537,8 @@
 		<video file="Data/Videos/s3e1.ogv" priority="initial" />
 		<video file="Data/Videos/s3e2.ogv" priority="initial" />
 		<video file="Data/Videos/s3e3.ogv" priority="initial" />
-    <video file="Data/Videos/s3e4.ogv" priority="initial" />
-    <video file="Data/Videos/s3e4_end.ogv" priority="initial" />
+		<video file="Data/Videos/s3e4.ogv" priority="initial" />
+		<video file="Data/Videos/s3e4_end.ogv" priority="initial" />
     
 	</videos>
 </xml>
