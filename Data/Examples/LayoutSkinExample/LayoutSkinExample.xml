@@ -1,4 +1,12 @@
 <xml>
+	<!-- TODO
+	We've got a weird one for this example.
+	When the base example here is compiled, the splash logo does not change (I am using the logo in Base/Atlases/Screens/Main/)
+	When I add a new background image to replace the default one, mod compiles but the game crashes on startup...
+	
+	My hunch is that the game does not like modifications to these elements
+	
+	-->
 	<package>
 		<name>LayoutSkinExample</name>
 		<root>Data/</root>
@@ -9,7 +17,7 @@
 		<pak_keep_source>True</pak_keep_source>
 		<pak_use_compression>True</pak_use_compression>
 		<workshop>
-			<id>500334111</id>
+			<id></id>
 			<title>Example Layout Skin</title>
 			<preview_file>LayoutSkinExample.png</preview_file>
 			<description>Example of creating a mod package that modifies the layout of game screens!</description>
@@ -17,6 +25,7 @@
 		</workshop>
 	</package>
 	<languages/>
+	<!-- Our mod has some images defined in an Atlas file! Add a reference to the file here to ensure the images are added. -->
 	<atlases>
 		<atlas file="Data/Atlases/LayoutSkinExampleAtlas.xml" priority="initial"/>
 	</atlases>

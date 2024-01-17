@@ -1,0 +1,17 @@
+<xml>
+	<settings>
+		<texture-size>2048</texture-size>
+		<max-textures>8</max-textures>
+		<name>skin_example_atlas</name>
+	</settings>
+	<images>
+		<!--
+		This example mod will replace two noticable assets in the game - the title logo and the layout background!
+		You will want to reference the Atlas XML files located in Base to find the names and other required data to include below.
+		For our example here, the definitions for the background and logo are located in Atlases/Screens.xml.
+		-->
+		<image type="single" name="screen_main_title" file="Data/Atlases/Screens/Main/new_title.png" origin="0.5,0.5" />
+		<image type="single" name="screen_main_bg_1" file="Data/Atlases/Screens/Main/new_bg_1.png" />
+	</images>
+	<animations/>
+</xml>
