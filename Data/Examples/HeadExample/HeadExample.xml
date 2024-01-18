@@ -1,0 +1,71 @@
+<xml>
+	<!-- Define details about our mod. -->
+	<package>
+		<!-- Give this mod a unique name! This will be the internal name for the mod and should not conflict with other mods or internal files. -->
+		<name>HeadExample</name>
+		
+		<!-- Define the root of this mod. Keep this as Data/ unless you know what you are doing. -->
+		<root>Data/</root>
+		
+		<!-- This directory should remain the same unless you want temp files stored elsewhere. -->
+		<compile_directory>../../Output/Data/HeadExample/.compiled/</compile_directory>
+		
+		<!-- 
+		This defines where the game should look for script definitions for the entire game. Since we have a simple head mod, we want to keep this as-is!
+		Important Note: If you have not decompiled Base.dat through the Builder executable, please do so before trying to compile this mod. 
+		To decompile Base.dat, run Builder with the following argument - 'extract Base'. In PowerShell on Windows, this looks like ".\Builder.exe extract Base"
+		-->
+		<script_directory>../../Data/Base/Scripts/</script_directory>
+		
+		<!-- Define where the compiled mod should be created. The below directory will put the .dat file right next to this XML file! -->
+		<pak_file>../../Data/HeadExample/HeadExample.dat</pak_file>
+		<private_key/>
+		<pak_keep_source>True</pak_keep_source>
+		<pak_use_compression>True</pak_use_compression>
+		
+		<!-- Let's get our workshop details populated! -->
+		<workshop>
+			<!-- The id will be populated after uploading it for the first time. Keep this blank unless you know what you are doing. -->
+			<id/>
+			
+			<!-- Give you mod a cool name! -->
+			<title>Example Head</title>
+			
+			<!-- Define the file location of the image uploaded to the Workshop to represent your mod. It's a good idea to keep it in the same location as this file. -->
+			<preview_file>HeadExample.png</preview_file>
+			
+			<!-- Give your mod a description! This will show on the workshop page for your mod. You can also update this after the mod is uploaded. -->
+			<description>Example of creating a mod package for a custom type of head!</description>
+			
+			<!-- Define tags that can be used to find your mod in the Workshop. Seperate tags by spaces. -->
+			<tags>Example Head Official</tags>
+		</workshop>
+	</package>
+	
+	<!-- 
+	Begin defining our files to compile with this mod. Any Atlases, scripts, sounds, and other items must be directly referenced or referenced through a file here. 
+	Our Builder executable will use this file to determine what you are trying to compile in your mod. If you have any unreferenced files, images, or other assets
+	not referenced in here one way or another, it will skip them. Make sure you properly reference files to ensure everything is added correctly.
+	We also need to keep the tags of the other asset types as the compiler expects to see them. Removing unused tags will result in an error!
+	-->
+	<languages/>
+	
+	<!-- Our mod has some images defined in the Atlas file! Add a reference to the file here to ensure the images are added. -->
+	<atlases>
+		<atlas file="Data/Atlases/HeadExampleAtlas.xml" priority="gfx"/>
+	</atlases>
+	<audio_banks/>
+	<fonts/>
+	<particlefx/>
+	
+	<!-- Our mod has some scripts that are all called through our unity file! Reference it here to ensure the items are defined. -->
+	<scripts>
+		<script file="Data/Scripts/head_example_unity.xs"/>
+	</scripts>
+	<shaders/>
+	<raw/>
+	<layouts/>
+	<maps/>
+	<animations/>
+</xml>
+

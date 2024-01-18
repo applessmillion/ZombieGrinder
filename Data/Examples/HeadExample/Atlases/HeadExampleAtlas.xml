@@ -1,0 +1,73 @@
+<!-- 
+This XML document specifies the items present in our mod. With this being a specific example, we have only 1 new item to add!
+In more complex mods we suggest seperating content types into seperate Atlas files. For example, the base game itself
+has seperate atlas files for inventory items (like head!), map making decals, sounds, and more.
+
+We also recommend following the file structure of Main. This allows for your more complex mods to be better organized
+and have content found easier when needing to make changes.
+-->
+<xml>
+	<settings>
+		<texture-size>2048</texture-size>
+		<max-textures>8</max-textures>
+		<!-- 
+		This name needs to be unique per atlas. We suggest adding your username or the mod name to avoid conflicts with other mods.
+		This name cannot exist anywhere else in the files or other mods - so don't try and use a name located in Main either!
+		-->
+		<name>head_example_atlas</name>
+	</settings>
+	
+	<!-- This is where we define all of items we would like to add. For this mod, it is a single head item. -->
+	<images>
+		
+		<!--
+		There is a bit going on in the definition of this item. A quick rundown what is happening:
+		type="grid" specifies that the file being referenced is a grid of images in a single file. These are known as frames.
+		name="" 	The internal game name for the item. This MUST be unique. You can also find images from the decal item in the map editor by searching for this string.
+					IMPORTANT NOTE: For type="grid" items, you must include a _# after your unique name. This allows both you and the game to define the multiple frames from your image.
+					Failing to do so will result in a build error or missing images/animations from your item.
+		file="" 	specifies the location of the file we are wanting frames from.
+		width="64" 	specifies the width in pixels one frame is. In this case, one grid element is 64 pixels wide.
+		height="64" specifies the height in pixels one frame is. In this case, one grid element is 64 pixels tall.
+		hspace="1" 	defines the horizontal spacing between frames. This tells the game to skip 1 pixel to the right of each frame.
+		vspace="1" 	defines the vertical spacing between frames. This tells the game to skip 1 pixel below each frame.
+		
+		There are other elements that may appear in these image tags, but we'll tackle those when they appear in other Example mods!
+		-->
+		<image type="grid" name="item_example_head_#" file="Data/Atlases/Inventory/Head/ExampleHead.png"  width="64" height="64" hspace="1" vspace="1">
+			<!-- Define animation frames for the item. Head items require 8 directional frames plus 8 tint directional frames -->
+			<animations>
+				<!--
+				Let's take a look at what is going on in each of these animation tags.
+				name="" 		defines the specific name of this frame for reference internally. This MUST follow the name found in the <image> tag or else you'll get some weird problems.
+				speed="120" 	defines how long the specific animation frame is shown in milliseconds. In this case, the frame is shown for 120 milliseconds, or 0.12 seconds.
+								NOTE: This is a head item, so speed is not too important unless you would like to display multiple frames for a specific facing direction.
+				mode="once"		Valid options here are 'once' and 'loop'. For head, this should only ever be set to 'once' unless you have multiple frames you would like to show for the specific facing direction.
+				from_frame=""	At which frame the animation should start. 0 is the top-most and left-most part of your image sized to the 'width' and 'height' defined in the parent <image> tag.
+				from_frame=""	At which frame the animation should end. 0 is the top-most and left-most part of your image sized to the 'width' and 'height' defined in the parent <image> tag.
+				-->
+				<animation name="item_example_head_s" speed="120" mode="once" from_frame="0" to_frame="0" />
+				<animation name="item_example_head_se" speed="120" mode="once" from_frame="1" to_frame="1" />
+				<animation name="item_example_head_e" speed="120" mode="once" from_frame="2" to_frame="2" />
+				<animation name="item_example_head_ne" speed="120" mode="once" from_frame="3" to_frame="3" />
+				<animation name="item_example_head_n" speed="120" mode="once" from_frame="4" to_frame="4" />
+				<animation name="item_example_head_nw" speed="120" mode="once" from_frame="5" to_frame="5" />
+				<animation name="item_example_head_w" speed="120" mode="once" from_frame="6" to_frame="6" />
+				<animation name="item_example_head_sw" speed="120" mode="once" from_frame="7" to_frame="7" />
+				
+				<!-- Tints are the bottom half of your head image file that define where a Paint Bucket should tint the item. These frames are defined seperately and should have a lower speed than the above animations -->
+				<animation name="item_example_head_tint_s" speed="50" mode="once" from_frame="8" to_frame="8" />
+				<animation name="item_example_head_tint_se" speed="50" mode="once" from_frame="9" to_frame="9" />
+				<animation name="item_example_head_tint_e" speed="50" mode="once" from_frame="10" to_frame="10" />
+				<animation name="item_example_head_tint_ne" speed="50" mode="once" from_frame="11" to_frame="11" />
+				<animation name="item_example_head_tint_n" speed="50" mode="once" from_frame="12" to_frame="12" />
+				<animation name="item_example_head_tint_nw" speed="50" mode="once" from_frame="13" to_frame="13" />
+				<animation name="item_example_head_tint_w" speed="50" mode="once" from_frame="14" to_frame="14" />
+				<animation name="item_example_head_tint_sw" speed="50" mode="once" from_frame="15" to_frame="15" />
+			</animations>
+		</image>
+	</images>
+	
+	<!-- The compiler expects to see this here, so keep it! -->
+	<animations/>
+</xml>
