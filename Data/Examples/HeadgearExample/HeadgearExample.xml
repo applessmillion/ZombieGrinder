@@ -35,10 +35,10 @@
 			<preview_file>HeadgearExample.png</preview_file>
 			
 			<!-- Give your mod a description! This will show on the workshop page for your mod. You can also update this after the mod is uploaded. -->
-			<description>Example of creating a mod package for a custom hat!</description>
+			<description>Learn how to create your own custom headgear with this example mod!</description>
 			
 			<!-- Define tags that can be used to find your mod in the Workshop. Seperate tags by spaces. -->
-			<tags>Example Hat Official</tags>
+			<tags>Example Headgear Official</tags>
 		</workshop>
 	</package>
 	
